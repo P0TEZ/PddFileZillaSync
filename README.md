@@ -48,6 +48,10 @@ Pour utiliser notre projet, il faut lancer le fichier `main.py` comme pour la ve
 - **Le nombre de threads à utiliser.**
 - Les extensions à exclure (option).
 
+```bash
+python3 main.py ftbUrl,user,password,,port local_path depth frequency threads [extensions]
+```
+
 ## 6. Conclusion
 
 Nous avons appris à utiliser le multithreading et à l'appliquer à un projet existant. Nous avons également appris à utiliser les serveurs FTP et à les utiliser dans un projet.
